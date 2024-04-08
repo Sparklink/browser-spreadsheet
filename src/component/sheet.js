@@ -1,4 +1,3 @@
-/* global window */
 import { h } from './element';
 import {
   bind,
@@ -28,12 +27,11 @@ import { formulas } from '../core/formula';
 function throttle(func, wait) {
   let timeout;
   return (...arg) => {
-    const that = this;
     const args = arg;
     if (!timeout) {
       timeout = setTimeout(() => {
         timeout = null;
-        func.apply(that, args);
+        func.apply(this, args);
       }, wait);
     }
   };

@@ -1,4 +1,3 @@
-/* global window, document */
 import { h } from './component/element';
 import DataProxy from './core/data_proxy';
 import Sheet from './component/sheet';

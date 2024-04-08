@@ -1,4 +1,3 @@
-/* global window document */
 import { h } from './element';
 import { cssPrefix } from '../config';
 import Button from './button';

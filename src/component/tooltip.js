@@ -1,4 +1,3 @@
-/* global document */
 import { h } from './element';
 import { bind } from './event';
 import { cssPrefix } from '../config';

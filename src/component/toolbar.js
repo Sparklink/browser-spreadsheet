@@ -1,4 +1,3 @@
-/* global window */
 import { h } from './element';
 import { bind } from './event';
 import tooltip from './tooltip';

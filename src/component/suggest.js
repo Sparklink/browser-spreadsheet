@@ -126,7 +126,7 @@ export default class Suggest {
     const { el } = this;
     // items[0].toggle();
     el.html('').children(...items).show();
-    bindClickoutside(el.parent(), () => { this.hide(); });
+    bindClickoutside(el.parent(), () => { this.hide() });
   }
 
   bindInputEvents(input) {

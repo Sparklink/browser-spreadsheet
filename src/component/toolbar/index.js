@@ -1,5 +1,3 @@
-/* global window */
-
 import Align from './align';
 import Valign from './valign';
 import Autofilter from './autofilter';

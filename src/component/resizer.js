@@ -1,4 +1,3 @@
-/* global window */
 import { h } from './element';
 import { mouseMoveUp } from './event';
 import { cssPrefix } from '../config';

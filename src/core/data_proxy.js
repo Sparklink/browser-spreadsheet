@@ -1,5 +1,3 @@
-/* global document */
-
 import Selector from './selector';
 import Scroll from './scroll';
 import History from './history';
@@ -431,7 +429,6 @@ export default class DataProxy {
     }
 
     // this need https protocol
-    /* global navigator */
     if (navigator.clipboard) {
       navigator.clipboard.writeText(copyText).then(() => {}, (err) => {
         console.log('text copy to the system clipboard error  ', copyText, err);
